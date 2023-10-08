@@ -13,13 +13,11 @@ int jumlah_harga(int harga){
 }
 
 void halaman_depan(){
-    
 
     cout << "==========================================================================" << endl;
     cout << " 1. Fantasi | 2. Politik | 3. Misteri | 4. Horor | 5. Romantis | 6. Keluar " << endl;
     cout << "==========================================================================" << endl;
 
-    
 }
 
 void daftar_buku_fantasi(){
