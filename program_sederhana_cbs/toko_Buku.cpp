@@ -15,8 +15,12 @@ int jumlah_harga(int harga){
 
 int kode_voucher(string kode){
 
+    int total_akhir;
 
-    
+    total_akhir = jumlah_harga(0) * 80 / 100;
+
+    return total_akhir;
+
 }
 
 void halaman_depan(){
@@ -288,7 +292,7 @@ int main(){
     
     int input_user, total;
     bool masuk_toko = 1;
-
+    string kode;
     while(masuk_toko){
         system("cls");
         halaman_depan();
@@ -321,7 +325,14 @@ int main(){
         }
     }
     
-    cout << "Jumlah yang harus dibayar: " << jumlah_harga(0);
+    cout << "Masukkan kode (enter jika tidak ada): ";
+    cin >> kode; //kode voucher "FANTASTICFIVE"
+
+    if(kode == "FANTASTICFIVE"){
+        cout << "Jumlah yang harus dibayar: " << kode_voucher(kode);
+    }else{
+        cout << "Jumlah yang harus dibayar: " << jumlah_harga(0);
+    }
 
     return 0;
 }
