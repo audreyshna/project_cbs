@@ -325,7 +325,7 @@ int main(){
         }
     }
     
-    cout << "Masukkan kode (enter jika tidak ada): ";
+    cout << "Masukkan kode ('0' jika tidak ada): ";
     cin >> kode; //kode voucher "FANTASTICFIVE"
 
     if(kode == "FANTASTICFIVE"){
