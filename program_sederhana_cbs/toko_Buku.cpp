@@ -34,11 +34,11 @@ void daftar_buku_fantasi(){
         harga_4 = 135000;
         harga_5 = 80000;
 
-        cout << "Harry Potter\t" << harga_1 << endl;
-        cout << "Bumi\t" << harga_2 << endl;
-        cout << "Hunger Games\t" << harga_3 << endl;
-        cout << "Six Of Crows\t" << harga_4 << endl;
-        cout << "Ceros dan Batozar\t" << harga_5 << endl;
+        cout << "1. Harry Potter\t" << harga_1 << endl;
+        cout << "2. Bumi\t" << harga_2 << endl;
+        cout << "3. Hunger Games\t" << harga_3 << endl;
+        cout << "4. Six Of Crows\t" << harga_4 << endl;
+        cout << "5. Ceros dan Batozar\t" << harga_5 << endl;
         cout << "=========================" << endl;
         cin >> input_user;
         switch (input_user)
@@ -128,11 +128,11 @@ void daftar_buku_misteri(){
         harga_4 = 109000;
         harga_5 = 80000;
 
-        cout << "The Guardians\t" << harga_1 << endl;
-        cout << "Sherlock Holmes\t" << harga_2 << endl;
-        cout << "Detective Conan\t" << harga_3 << endl;
-        cout << "One of Us Is Lying\t" << harga_4 << endl;
-        cout << "Pembunuhan Zodiak Tokyo\t" << harga_5 << endl;
+        cout << "1. The Guardians\t" << harga_1 << endl;
+        cout << "2. Sherlock Holmes\t" << harga_2 << endl;
+        cout << "3. Detective Conan\t" << harga_3 << endl;
+        cout << "4. One of Us Is Lying\t" << harga_4 << endl;
+        cout << "5. Pembunuhan Zodiak Tokyo\t" << harga_5 << endl;
         cout << "=========================" << endl;
         cin >> input_user;
         switch (input_user)
