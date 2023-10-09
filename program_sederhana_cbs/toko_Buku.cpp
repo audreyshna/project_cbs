@@ -39,12 +39,15 @@ void daftar_buku_fantasi(){
         harga_4 = 135000;
         harga_5 = 80000;
 
+        cout << "==================FANTASI==================" << endl;
         cout << "1. Harry Potter\t" << harga_1 << endl;
         cout << "2. Bumi\t" << harga_2 << endl;
         cout << "3. Hunger Games\t" << harga_3 << endl;
         cout << "4. Six Of Crows\t" << harga_4 << endl;
         cout << "5. Ceros dan Batozar\t" << harga_5 << endl;
-        cout << "=========================" << endl;
+        cout << "===========================================" << endl;
+        cout << "0. Kembali ke halaman utama" << endl;
+        cout << "Pilih buku: "
         cin >> input_user;
         switch (input_user)
         {
@@ -133,12 +136,15 @@ void daftar_buku_misteri(){
         harga_4 = 109000;
         harga_5 = 80000;
 
+        cout << "====================MISTERI====================" << endl;
         cout << "1. The Guardians\t" << harga_1 << endl;
         cout << "2. Sherlock Holmes\t" << harga_2 << endl;
         cout << "3. Detective Conan\t" << harga_3 << endl;
         cout << "4. One of Us Is Lying\t" << harga_4 << endl;
         cout << "5. Pembunuhan Zodiak Tokyo\t" << harga_5 << endl;
-        cout << "=========================" << endl;
+        cout << "===============================================" << endl;
+        cout << "0. Kembali ke halaman utama" << endl;
+        cout << "Pilih buku: "
         cin >> input_user;
         switch (input_user)
         {
@@ -181,13 +187,17 @@ void daftar_buku_horor(){
         harga_4 = 38000;
         harga_5 = 147000;
 
-        cout << "1. 'The Shining' Stephen King\t" << harga_1 << endl;
-        cout << "2. 'Danur' Risa Saraswati\t" << harga_2 << endl;
-        cout << "3. 'The Exorcist' William Peter Blatty\t" << harga_3 << endl;
-        cout << "4. 'Sewu Dino' Simpleman\t" << harga_4 << endl;
-        cout << "5. 'The Haunting of Hill House' Shirley Jackson\t" << harga_5 << endl;
+        cout << "=======================HOROR======================" << endl;
+        cout << "1. The Shining\t" << harga_1 << endl;
+        cout << "2. Danur\t" << harga_2 << endl;
+        cout << "3. The Exorcist\t" << harga_3 << endl;
+        cout << "4. Sewu Dino\t" << harga_4 << endl;
+        cout << "5. The Haunting of Hill House\t" << harga_5 << endl;
         cout << "==================================================" << endl;
+        cout << "0.Kembali ke halaman utama" << endl;
+        cout << "Pilih buku: ";      
         cin >> input_user;
+
         switch (input_user)
         {
         case 1:
