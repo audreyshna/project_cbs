@@ -13,6 +13,12 @@ int jumlah_harga(int harga){
     
 }
 
+int kode_voucher(string kode){
+
+
+    
+}
+
 void halaman_depan(){
 
     cout << "************PILIH GENRE BUKU************" << endl;
@@ -89,14 +95,14 @@ void daftar_buku_politik(){
         harga_4 = 35000;
         harga_5 = 120000;
 
-        cout << "=======================POLITIK=======================";
+        cout << "=======================POLITIK======================" << endl;
         cout << "1. Dasar-Dasar Ilmu Politik\t" << harga_1 << endl;
         cout << "2. Sistem Politik Indonesia Menjelajahi Teori Dan Praktik\t" << harga_2 << endl;
         cout << "3. Buku Politik Pemerintahan Desa di Indonesia\t" << harga_3 << endl;
         cout << "4. Kekuasaan Politik\t" << harga_4 << endl;
         cout << "5. Teori - Teori Hubungan International\t" << harga_5 << endl;
         cout << "===================================================" << endl;
-        cout << "0.Kembali ke halaman utama";
+        cout << "0.Kembali ke halaman utama" << endl;
         cout << "Pilih Buku: ";
         cin >> input_user;
         switch (input_user)
@@ -147,7 +153,7 @@ void daftar_buku_misteri(){
         cout << "5. Pembunuhan Zodiak Tokyo\t" << harga_5 << endl;
         cout << "===============================================" << endl;
         cout << "0. Kembali ke halaman utama" << endl;
-        cout << "Pilih buku: "
+        cout << "Pilih buku: ";
         cin >> input_user;
         switch (input_user)
         {
@@ -284,7 +290,7 @@ int main(){
     bool masuk_toko = 1;
 
     while(masuk_toko){
-
+        system("cls");
         halaman_depan();
         cout << "Masukkan pilihan anda: ";
         cin >> input_user;
