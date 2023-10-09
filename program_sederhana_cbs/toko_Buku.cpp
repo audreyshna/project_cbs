@@ -129,7 +129,7 @@ void daftar_buku_romantis(){
             jumlah_harga(harga_4);
             break;
         case 5:
-            jumlah_harga(harga_5);;
+            jumlah_harga(harga_5);
             break;
         case 6:
             option = 0;
