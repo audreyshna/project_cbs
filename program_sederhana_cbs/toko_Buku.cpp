@@ -15,9 +15,14 @@ int jumlah_harga(int harga){
 
 void halaman_depan(){
 
-    cout << "===========================================================================" << endl;
-    cout << " 1. Fantasi | 2. Politik | 3. Misteri | 4. Horor | 5. Romantis | 6. Keluar " << endl;
-    cout << "===========================================================================" << endl;
+    cout << "************PILIH GENRE BUKU************" << endl;
+    cout << " 1. Fantasi" << endl;
+    cout << " 2. Politik" << endl;
+    cout << " 3. Misteri" << endl;
+    cout << " 4. Horor" << endl;
+    cout << " 5. Romantis" << endl;
+    cout << "========================================" << endl;
+    cout << "Ketik '6' untuk bayar." << endl;
 
 }
 
@@ -170,18 +175,18 @@ void daftar_buku_horor(){
     while (option)
     {
         system("cls");
-        harga_1 = 18000;
-        harga_2 = 18000;
-        harga_3 = 18000;
-        harga_4 = 18000;
-        harga_5 = 18000;
+        harga_1 = 86000;
+        harga_2 = 70000;
+        harga_3 = 95000;
+        harga_4 = 38000;
+        harga_5 = 147000;
 
-        cout << "1.\t" << harga_1 << endl;
-        cout << "2.\t" << harga_2 << endl;
-        cout << "3.\t" << harga_3 << endl;
-        cout << "4.\t" << harga_4 << endl;
-        cout << "5.\t" << harga_5 << endl;
-        cout << "=========================" << endl;
+        cout << "1. 'The Shining' Stephen King" << harga_1 << endl;
+        cout << "2. 'Danur' Risa Saraswati" << harga_2 << endl;
+        cout << "3. 'The Exorcist' William Peter Blatty" << harga_3 << endl;
+        cout << "4. 'Sewu Dino' Simpleman" << harga_4 << endl;
+        cout << "5. 'The Haunting of Hill House' Shirley Jackson" << harga_5 << endl;
+        cout << "==================================================" << endl;
         cin >> input_user;
         switch (input_user)
         {
