@@ -181,11 +181,11 @@ void daftar_buku_horor(){
         harga_4 = 38000;
         harga_5 = 147000;
 
-        cout << "1. 'The Shining' Stephen King" << harga_1 << endl;
-        cout << "2. 'Danur' Risa Saraswati" << harga_2 << endl;
-        cout << "3. 'The Exorcist' William Peter Blatty" << harga_3 << endl;
-        cout << "4. 'Sewu Dino' Simpleman" << harga_4 << endl;
-        cout << "5. 'The Haunting of Hill House' Shirley Jackson" << harga_5 << endl;
+        cout << "1. 'The Shining' Stephen King\t" << harga_1 << endl;
+        cout << "2. 'Danur' Risa Saraswati\t" << harga_2 << endl;
+        cout << "3. 'The Exorcist' William Peter Blatty\t" << harga_3 << endl;
+        cout << "4. 'Sewu Dino' Simpleman\t" << harga_4 << endl;
+        cout << "5. 'The Haunting of Hill House' Shirley Jackson\t" << harga_5 << endl;
         cout << "==================================================" << endl;
         cin >> input_user;
         switch (input_user)
