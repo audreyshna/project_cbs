@@ -117,6 +117,7 @@ int main(){
 
     while(masuk_toko){
 
+
         halaman_depan();
         cout << "Masukkan pilihan anda: ";
         cin >> input_user;
