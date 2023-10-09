@@ -47,7 +47,7 @@ void daftar_buku_fantasi(){
         cout << "5. Ceros dan Batozar\t" << harga_5 << endl;
         cout << "===========================================" << endl;
         cout << "0. Kembali ke halaman utama" << endl;
-        cout << "Pilih buku: "
+        cout << "Pilih buku: ";
         cin >> input_user;
         switch (input_user)
         {
