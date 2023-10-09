@@ -13,16 +13,6 @@ int jumlah_harga(int harga){
     
 }
 
-int kupon_diskon(string kode_kupon){
-    
-    int jumlah_diskon;
-
-    if (kode_kupon = "FANTASTIC5"){
-        jumlah_diskon = (jumlah_harga(0) * 20) / 100;
-        return jumlah_diskon;
-    }
-}
-
 void halaman_depan(){
 
     cout << "===========================================================================" << endl;
