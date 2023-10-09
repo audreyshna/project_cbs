@@ -13,6 +13,16 @@ int jumlah_harga(int harga){
     
 }
 
+int kode_voucher(string kode){
+
+    int total_akhir;
+
+    total_akhir = jumlah_harga(0) * 80 / 100;
+
+    return total_akhir;
+
+}
+
 void halaman_depan(){
 
     cout << "************PILIH GENRE BUKU************" << endl;
@@ -33,18 +43,21 @@ void daftar_buku_fantasi(){
     while (option)
     {
         system("cls");
-        harga_1 = 18000;
-        harga_2 = 18000;
-        harga_3 = 18000;
-        harga_4 = 18000;
-        harga_5 = 18000;
+        harga_1 = 140000;
+        harga_2 = 80000;
+        harga_3 = 130000;
+        harga_4 = 135000;
+        harga_5 = 80000;
 
-        cout << "1.\t" << harga_1 << endl;
-        cout << "2.\t" << harga_2 << endl;
-        cout << "3.\t" << harga_3 << endl;
-        cout << "4.\t" << harga_4 << endl;
-        cout << "5.\t" << harga_5 << endl;
-        cout << "=========================" << endl;
+        cout << "==================FANTASI==================" << endl;
+        cout << "1. Harry Potter\t" << harga_1 << endl;
+        cout << "2. Bumi\t" << harga_2 << endl;
+        cout << "3. Hunger Games\t" << harga_3 << endl;
+        cout << "4. Six Of Crows\t" << harga_4 << endl;
+        cout << "5. Ceros dan Batozar\t" << harga_5 << endl;
+        cout << "===========================================" << endl;
+        cout << "0. Kembali ke halaman utama" << endl;
+        cout << "Pilih buku: ";
         cin >> input_user;
         switch (input_user)
         {
@@ -80,18 +93,21 @@ void daftar_buku_politik(){
     while (option)
     {
         system("cls");
-        harga_1 = 18000;
-        harga_2 = 18000;
-        harga_3 = 18000;
-        harga_4 = 18000;
-        harga_5 = 18000;
+        harga_1 = 50000;
+        harga_2 = 70000;
+        harga_3 = 40000;
+        harga_4 = 35000;
+        harga_5 = 120000;
 
-        cout << "1.\t" << harga_1 << endl;
-        cout << "2.\t" << harga_2 << endl;
-        cout << "3.\t" << harga_3 << endl;
-        cout << "4.\t" << harga_4 << endl;
-        cout << "5.\t" << harga_5 << endl;
-        cout << "=========================" << endl;
+        cout << "=======================POLITIK======================" << endl;
+        cout << "1. Dasar-Dasar Ilmu Politik\t" << harga_1 << endl;
+        cout << "2. Sistem Politik Indonesia Menjelajahi Teori Dan Praktik\t" << harga_2 << endl;
+        cout << "3. Buku Politik Pemerintahan Desa di Indonesia\t" << harga_3 << endl;
+        cout << "4. Kekuasaan Politik\t" << harga_4 << endl;
+        cout << "5. Teori - Teori Hubungan International\t" << harga_5 << endl;
+        cout << "===================================================" << endl;
+        cout << "0.Kembali ke halaman utama" << endl;
+        cout << "Pilih Buku: ";
         cin >> input_user;
         switch (input_user)
         {
@@ -127,18 +143,21 @@ void daftar_buku_misteri(){
     while (option)
     {
         system("cls");
-        harga_1 = 18000;
-        harga_2 = 18000;
-        harga_3 = 18000;
-        harga_4 = 18000;
-        harga_5 = 18000;
+        harga_1 = 109000;
+        harga_2 = 80000;
+        harga_3 = 75000;
+        harga_4 = 109000;
+        harga_5 = 80000;
 
-        cout << "1.\t" << harga_1 << endl;
-        cout << "2.\t" << harga_2 << endl;
-        cout << "3.\t" << harga_3 << endl;
-        cout << "4.\t" << harga_4 << endl;
-        cout << "5.\t" << harga_5 << endl;
-        cout << "=========================" << endl;
+        cout << "====================MISTERI====================" << endl;
+        cout << "1. The Guardians\t" << harga_1 << endl;
+        cout << "2. Sherlock Holmes\t" << harga_2 << endl;
+        cout << "3. Detective Conan\t" << harga_3 << endl;
+        cout << "4. One of Us Is Lying\t" << harga_4 << endl;
+        cout << "5. Pembunuhan Zodiak Tokyo\t" << harga_5 << endl;
+        cout << "===============================================" << endl;
+        cout << "0. Kembali ke halaman utama" << endl;
+        cout << "Pilih buku: ";
         cin >> input_user;
         switch (input_user)
         {
@@ -226,18 +245,21 @@ void daftar_buku_romantis(){
     while (option)
     {
         system("cls");
-        harga_1 = 18000;
-        harga_2 = 18000;
-        harga_3 = 18000;
-        harga_4 = 18000;
-        harga_5 = 18000;
+        harga_1 = 85000;
+        harga_2 = 70000;
+        harga_3 = 45000;
+        harga_4 = 100000;
+        harga_5 = 120000;
 
-        cout << "1.\t" << harga_1 << endl;
-        cout << "2.\t" << harga_2 << endl;
-        cout << "3.\t" << harga_3 << endl;
-        cout << "4.\t" << harga_4 << endl;
-        cout << "5.\t" << harga_5 << endl;
-        cout << "=========================" << endl;
+        cout << "=======================ROMANTIS=======================";
+        cout << "1. MetroPop Klasik: Love, Curse & Hocus Pocus\t" << harga_1 << endl;
+        cout << "2. Cinta Dan Perjuangan\t" << harga_2 << endl;
+        cout << "3. Sebuah Usaha Melupakan\t" << harga_3 << endl;
+        cout << "4. The Architecture of love\t" << harga_4 << endl;
+        cout << "5. Cinta Dan Perjuangan\t" << harga_5 << endl;
+        cout << "===================================================" << endl;
+        cout << "0.Kembali ke halaman utama" << endl;
+        cout << "Pilih buku: ";
         cin >> input_user;
         switch (input_user)
         {
@@ -270,9 +292,9 @@ int main(){
     
     int input_user, total;
     bool masuk_toko = 1;
-
+    string kode;
     while(masuk_toko){
-
+        system("cls");
         halaman_depan();
         cout << "Masukkan pilihan anda: ";
         cin >> input_user;
@@ -303,7 +325,14 @@ int main(){
         }
     }
     
-    cout << "Jumlah yang harus dibayar: " << jumlah_harga(0);
+    cout << "Masukkan kode ('0' jika tidak ada): ";
+    cin >> kode; //kode voucher "FANTASTICFIVE"
+
+    if(kode == "FANTASTICFIVE"){
+        cout << "Jumlah yang harus dibayar: " << kode_voucher(kode);
+    }else{
+        cout << "Jumlah yang harus dibayar: " << jumlah_harga(0);
+    }
 
     return 0;
 }
