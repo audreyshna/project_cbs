@@ -33,17 +33,17 @@ void daftar_buku_fantasi(){
     while (option)
     {
         system("cls");
-        harga_1 = 18000;
-        harga_2 = 18000;
-        harga_3 = 18000;
-        harga_4 = 18000;
-        harga_5 = 18000;
+        harga_1 = 140000;
+        harga_2 = 80000;
+        harga_3 = 130000;
+        harga_4 = 135000;
+        harga_5 = 80000;
 
-        cout << "1.\t" << harga_1 << endl;
-        cout << "2.\t" << harga_2 << endl;
-        cout << "3.\t" << harga_3 << endl;
-        cout << "4.\t" << harga_4 << endl;
-        cout << "5.\t" << harga_5 << endl;
+        cout << "1. Harry Potter\t" << harga_1 << endl;
+        cout << "2. Bumi\t" << harga_2 << endl;
+        cout << "3. Hunger Games\t" << harga_3 << endl;
+        cout << "4. Six Of Crows\t" << harga_4 << endl;
+        cout << "5. Ceros dan Batozar\t" << harga_5 << endl;
         cout << "=========================" << endl;
         cin >> input_user;
         switch (input_user)
@@ -127,17 +127,17 @@ void daftar_buku_misteri(){
     while (option)
     {
         system("cls");
-        harga_1 = 18000;
-        harga_2 = 18000;
-        harga_3 = 18000;
-        harga_4 = 18000;
-        harga_5 = 18000;
+        harga_1 = 109000;
+        harga_2 = 80000;
+        harga_3 = 75000;
+        harga_4 = 109000;
+        harga_5 = 80000;
 
-        cout << "1.\t" << harga_1 << endl;
-        cout << "2.\t" << harga_2 << endl;
-        cout << "3.\t" << harga_3 << endl;
-        cout << "4.\t" << harga_4 << endl;
-        cout << "5.\t" << harga_5 << endl;
+        cout << "1. The Guardians\t" << harga_1 << endl;
+        cout << "2. Sherlock Holmes\t" << harga_2 << endl;
+        cout << "3. Detective Conan\t" << harga_3 << endl;
+        cout << "4. One of Us Is Lying\t" << harga_4 << endl;
+        cout << "5. Pembunuhan Zodiak Tokyo\t" << harga_5 << endl;
         cout << "=========================" << endl;
         cin >> input_user;
         switch (input_user)
