@@ -89,12 +89,15 @@ void daftar_buku_politik(){
         harga_4 = 35000;
         harga_5 = 120000;
 
+        cout << "=======================POLITIK=======================";
         cout << "1. Dasar-Dasar Ilmu Politik\t" << harga_1 << endl;
         cout << "2. Sistem Politik Indonesia Menjelajahi Teori Dan Praktik\t" << harga_2 << endl;
         cout << "3. Buku Politik Pemerintahan Desa di Indonesia\t" << harga_3 << endl;
         cout << "4. Kekuasaan Politik\t" << harga_4 << endl;
         cout << "5. Teori - Teori Hubungan International\t" << harga_5 << endl;
-        cout << "=========================" << endl;
+        cout << "===================================================" << endl;
+        cout << "0.Kembali ke halaman utama";
+        cout << "Pilih Buku: ";
         cin >> input_user;
         switch (input_user)
         {
@@ -238,12 +241,15 @@ void daftar_buku_romantis(){
         harga_4 = 100000;
         harga_5 = 120000;
 
+        cout << "=======================ROMANTIS=======================";
         cout << "1. MetroPop Klasik: Love, Curse & Hocus Pocus\t" << harga_1 << endl;
         cout << "2. Cinta Dan Perjuangan\t" << harga_2 << endl;
         cout << "3. Sebuah Usaha Melupakan\t" << harga_3 << endl;
         cout << "4. The Architecture of love\t" << harga_4 << endl;
         cout << "5. Cinta Dan Perjuangan\t" << harga_5 << endl;
-        cout << "=========================" << endl;
+        cout << "===================================================" << endl;
+        cout << "0.Kembali ke halaman utama" << endl;
+        cout << "Pilih buku: ";
         cin >> input_user;
         switch (input_user)
         {
